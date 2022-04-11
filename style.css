@@ -128,9 +128,15 @@ section:nth-child(2) a:hover {
   section:nth-child(3) {
     width: 50%;
   }
+  body {
+    padding: 5rem 10rem;
+  }
 }
 
 @media (min-width: 1200px) {
+  body {
+    padding: 5rem 10rem;
+  }
   section:nth-child(2) {
     width: 50%;
   }
